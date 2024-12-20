@@ -1,0 +1,21 @@
+Rapport:
+Donjon avec 9 pieces :
+<0-Rien> : [<1-Gargouille>, <1-Gargouille>, <5-Boss>, <6-Potion>]
+<1-Gargouille> : [<0-Rien>, <0-Rien>, <2-Rien>]
+<2-Rien> : [<1-Gargouille>, <3-ArtefactMagique>]
+<3-ArtefactMagique> : [<2-Rien>, <4-Gobelin>]
+<4-Gobelin> : [<3-ArtefactMagique>, <5-Boss>, <8-Rien>]
+<5-Boss> : [<4-Gobelin>, <0-Rien>]
+<6-Potion> : [<0-Rien>, <7-Gargouille>]
+<7-Gargouille> : [<6-Potion>, <8-Rien>]
+<8-Rien> : [<7-Gargouille>, <4-Gobelin>]
+Non pacifique.
+Contient un boss.
+Contient 2 tresors.
+Chemin jusqu'au boss :
+<0-Rien>
+<1-Gargouille>
+<2-Rien>
+<3-ArtefactMagique>
+<4-Gobelin>
+<5-Boss>
